@@ -9,8 +9,11 @@
 </head>
 <body>
 <!-- Header -->
-
-    <h1>Lobos Valenzuela</h1>
+  <div>
+    <header>
+      <h1>Lobos Valenzuela</h1>
+    </header>
+  </div>
     <!-- Bootstrap Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" style="background-color: #a1cbe9;">
   <div class="container-fluid">
@@ -21,23 +24,23 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#products.html">Products</a>
+        <a class="nav-link" href="#products">Products</a>
         <a class="nav-link" href="#">Payout</a>
         <a class="nav-link" href="#">Enterprise</a>
       </div>
     </div>
   </div>
 </nav>
-<img src="assets/office-desk-6180925.jpg" alt="responsive image" height="900px" width="100%">
+<img src="assets/office-desk-6180925.jpg" alt="responsive image" class="img-fluid">
 <!-- Products Section -->
-<div class="container text-center" id="#products.html">
-    <h2>Products</h2>
-    <p>Check out our latest products!</p>
-  <div class="row">
-    <div class="col">
+<div class="container " id="products">
+    <h2 class="text-center section-title">Products</h2>
+    <p class="text-center lead mb-5">Check out our latest products!</p>
+  <div class="row justify-content-center">
+  <div class="col-lg-4 col-md-6 d-flex justify-content-center mb-4">
         <!-- First Product-->
-       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="Computer">
+       <div class="card" style="width: 20rem;">
+        <img src="assets/random_laptop.jpg" class="card-img-top" alt="Computer">
         <div class="card-body">
         <h5 class="card-title">Laptop random</h5>
          <p class="card-text">Sale 20% off<br>Price: $750</p>
@@ -45,9 +48,9 @@
     </div>
     </div>
     </div>
-    <div class="col">
-      <!-- Second Product-->
-      <div class="card" style="width: 18rem;">
+    <!-- Second Product-->
+    <div class="col-lg-4 col-md-6 d-flex justify-content-center mb-4">
+      <div class="card" style="width: 20rem;">
         <img src="..." class="card-img-top" alt="Smartphone">
         <div class="card-body">
           <h5 class="card-title">Smartphone random</h5>
@@ -56,9 +59,9 @@
         </div>
       </div>
     </div>
-    <div class="col">
-      <!-- Third Product-->
-      <div class="card" style="width: 18rem;">
+    <!-- Third Product-->
+    <div class="col-lg-4 col-md-6 d-flex justify-content-center mb-4">  
+      <div class="card" style="width: 20rem;">
         <img src="..." class="card-img-top" alt="Tablet">
         <div class="card-body">
           <h5 class="card-title">Tablet random</h5>
